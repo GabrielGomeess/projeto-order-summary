@@ -126,7 +126,7 @@ p.pay-btn:hover{
 
 p.cancel-btn{
     text-align: center;
-    padding: 20px;
+    padding: 20px 20px 30px 20px;
     color: var(--cor04);
     font-weight: 900;
 }
