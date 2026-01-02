@@ -82,7 +82,7 @@ article.box-plan-info{
 
 div.box-price > p{
     font-size: 0.9em;
-    font-weight: 800;
+    font-weight: 900;
     color: var(--cor06);
 }
 
@@ -139,21 +139,32 @@ p.cancel-btn:hover{
 /*Style for Tablets and Notebooks*/
 
 @media screen and (min-width: 600px){
+
+    body, html{
+    width: 100vw;
+    height: 100vh;
+
+    background: url(../images/pattern-background-desktop.svg) no-repeat var(--cor03);
+    background-size: contain;
+    }
+
     h1{
-    padding: 30px 30px 20px 30px;
+        padding-top: 30px;
     }
 
     section.box-container{
     width: 375px;
+    box-sizing: border-box;
     }
 
     section > p.resume{
-    padding: 0px 40px 0px 40px;
+    padding: 0px 30px 0px 30px;
     font-size: 1em;
     }
 
     article.box-plan-info{
     margin: 20px 30px;
+    padding: 10px;
     }
 
     p.pay-btn{
